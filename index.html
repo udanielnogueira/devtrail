@@ -3,56 +3,102 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <!--Setting Viewport (Responsive)-->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="estilo.css">
+
+    <title>Dev Trail</title>
+    <link rel="stylesheet" href="estilo.css"/>
+    <script type="text/javascript" src="script.js"></script>
 </head>
 
 <body>
-    <div class="container_principal">
-
-        <div class="titulo"><h1>Jornada Dev</h1>
-        <h2>O portal de entrada para novos <span>programadores.</span></h3>
-        </div>
-
-        <div class="sider"></div>
+    <script>
         
-        <div class="cabecalho"> 
-            <div style="justify-self: start;align-self: center;">
-                Logo
-            </div>
-            <div class="menu">
-                <ul style="list-style: none;">
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">Internet</a></li>
-                    <li><a href="#">Tutoriais</a></li>
-                    <li><a href="#">Equipe</a></li>
-                </ul>
-            </div>
-        </div>
+    </script>
 
-        <div class="pe"> <h2>Footer vai aqui</h2> </div>
+    <header>
+        <!--Heading-->
+        <!--Using class selector-->
+        <!--Using &lt and &gt-->
+        <h1 class="logo">DevTrail</h1>
 
-        <div class="main_links"> 
-            <div class="box">
-            <div id="logo"></div>
-            Texto
-        </div>
-        <div class="box">
-            <div id="logo"></div>
-            Texto
-        </div>
-        <div class="box">
-            <div id="logo"></div>
-            Texto
-        </div>
-        <div class="box">
-            <div id="logo"></div>
-            Texto
-        </div>
+        <!--Style attribute
+            <h2 class="logo" style="color:white">The trail to master Web Development</h2>
+        -->
 
-        </div>
-    </div>
+        <!--Line Break-->
+        <!--It's an empty tag-->
+        <br>
+    </header>
+
+    <section class="section1">
+        <!--Paragraph-->
+        <p class="section1">Choose what you would like to learn:</p>
+
+        <!--Image-->
+        <!--Title attribute-->
+        <!--Using id selector-->
+        <img
+        src="assets/html5-badge.png" 
+        alt="html 5 badge" 
+        width="auto" height="100"
+        
+        id="badge" 
+        title ="HTML 5">
+
+        <!--Using single and double quotes-->
+        <!--Image as a link-->
+        <!--Remove any space inside <a> tag,it may show an undescore-->
+        <a href="#"><img src="assets/css3-badge.png" alt="css 3 badge"  width="auto" height="100" id="badge" title='"CSS 3"'></a>
+
+        <img
+        src="assets/javascript-badge.png" 
+        alt="javascript badge" 
+        width="auto" height="100"
+
+        id="badge" 
+        title ="Javascript">
+        
+    </section>
+
+    <!--YouTube Video-->
+    <section class="video">
+        <p class="video">Know about Web Development</p>
+
+        <iframe class="video"
+        src="https://www.youtube.com/embed/OcGpWJ3WEh8" 
+        title="YouTube video player" frameborder="0" 
+        allow="accelerometer; autoplay; clipboard-write; 
+        encrypted-media; gyroscope; picture-in-picture" 
+        allowfullscreen>
+        </iframe>
+    </section>
+
+    <!--Horizontal Rule-->
+    <hr>
+
+    <footer>
+        <!--Link-->
+        <!--Target attribute, _self or _blank-->
+        <!--Link title-->
+        <a class="contato" href="contact.html" target="_blank" title="Contact information">Contact</a>
+        
+        <p>
+            Created by 
+            <a href="http://github.com/udanielnogueira" 
+            target="_blank" title="github.com/udanielnogueira">
+            udanielnogueira</a>
+        </p>
+
+        <!--Quote-->  
+        <!--Use <blockquote> for longer quotations-->
+        <q cite="https://shourai.io/blog/2020/11/13/top-25-web-development-quotes-inspirational-and-motivational/">
+            Great web design without functionality is like a sports car with no engine.
+        </q>
+
+    </footer>
+
 </body>
+
 </html>

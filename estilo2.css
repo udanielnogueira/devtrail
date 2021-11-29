@@ -65,7 +65,7 @@ h1.logo{
 }
 
 .section-title{
-    margin-top: 20px;
+    margin-top: 50px;
 }
 
 .section-a{
@@ -74,9 +74,51 @@ h1.logo{
 }
 
 .section-b{
+    padding: 5vh 5vw;
+    text-align: justify;
+}
+
+.section-a h2{
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+.section-b h2{
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+.section-a a:link{
+    color: orangered;
+    text-decoration: none;
+    padding-right: 20px;
+}
+
+.section-a a:hover{
+    color: rgb(56, 219, 56);
+}
+
+.section-a a:visited{
+    color: rgb(56, 219, 56);
+}
+
+.section-b{
     background-color: rgb(10, 10, 10);
-    text-align: center;
-    padding: 80px;
+    color: white;
+}
+
+.section-b a:link{
+    color: orangered;
+    text-decoration: none;
+    padding-right: 20px;
+}
+
+.section-b a:hover{
+    color: rgb(56, 219, 56);
+}
+
+.section-b a:visited{
+    color: rgb(56, 219, 56);
 }
 
 a.contato:link, a.contato:visited{

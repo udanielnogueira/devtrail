@@ -27,12 +27,15 @@ header{
     padding-right: 2rem;
 }
 
+.list-menu{
+    margin-left: -60px;
+    margin-bottom: 50px;
+}
+
 .menu-item{
-    text-align: left;
     list-style-type: none;
-    padding-bottom: 10px;
-    margin-left: -20px;
-    margin-bottom: -10px;
+    margin-left: 50px;
+    display: inline;
 }
 
 .menu-item a {
@@ -61,7 +64,7 @@ h1.logo{
     font-size: 5rem;
 }
 
-.logic-logo{
+.section-title{
     margin-top: 20px;
 }
 
@@ -74,14 +77,6 @@ h1.logo{
     background-color: rgb(10, 10, 10);
     text-align: center;
     padding: 80px;
-}
-
-.scratch_img{
-    padding-left: 90px;
-}
-
-.scratch_logo{
-    padding-bottom: 75px;
 }
 
 a.contato:link, a.contato:visited{

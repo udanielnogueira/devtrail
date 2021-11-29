@@ -28,7 +28,6 @@ header{
     /*It's important to set margin 0 here when using rem*/
     margin: 0px;
 }
-
 h1.logo{
     /*The rem is good to font-size*/
     /*The font receives a fixed dimension*/

@@ -120,23 +120,18 @@ h1.logo{
     color: rgb(56, 219, 56);
 }
 
-a.contato:link, a.contato:visited{
-    background-color: black;
-    color: white;
+.link-about a:link{
+    color: orangered;
     text-decoration: none;
-    padding: 7px;
-    padding-left: 15px;
-    padding-right: 15px;
-    text-align: center;
-    border-radius: 5px;
-  
-    /*To generate a block on it*/
-    display: inline-block;
-    margin: 25px;
 }
 
-a.contato:hover, a.contato:active{
-    background-color: rgb(89, 231, 120);
+.link-about a:visited{
+    color: rgb(56, 219, 56);
+    text-decoration: none;
+}
+
+.link-about a:hover{
+    color: rgb(56, 219, 56);
 }
 
 footer{

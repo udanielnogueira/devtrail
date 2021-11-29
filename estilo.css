@@ -71,18 +71,18 @@ p.section1{
 }
 
 /*Link Colors*/
-a:link{
-    color: green;
-    text-decoration: none;
-}
-
-a:visited{
+.link-about a:link{
     color: orangered;
     text-decoration: none;
 }
 
-a:hover{
-    color: rgb(89, 231, 120);
+.link-about a:visited{
+    color: rgb(56, 219, 56);
+    text-decoration: none;
+}
+
+.link-about a:hover{
+    color: rgb(56, 219, 56);
 }
 
 footer{

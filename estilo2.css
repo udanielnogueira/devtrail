@@ -28,13 +28,12 @@ header{
 }
 
 .list-menu{
-    margin-left: -60px;
+    margin-left: -40px;
     margin-bottom: 50px;
 }
 
 .menu-item{
     list-style-type: none;
-    margin-left: 50px;
     display: inline;
 }
 

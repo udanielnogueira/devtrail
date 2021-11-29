@@ -59,7 +59,7 @@ p.section1{
 /*Id selector*/
 #badge{
     /*Only adjusting height, it changes proportionally*/
-    height: 100px;
+    height: 60px;
 
     padding: 3vw;
     margin-left: 30px;

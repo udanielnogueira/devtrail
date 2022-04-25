@@ -3,4 +3,4 @@
  
  A project by Tag Hunters.
  
- Access: <a href="https://udanielnogueira.github.io/devtrail/">Dev Trail</a>
+ Access: https://udanielnogueira.github.io/devtrail/
